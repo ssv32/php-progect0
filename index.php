@@ -5,6 +5,7 @@
 <?php
 $flag = USER::check_auth();
  if ( $flag === false) :// if :?>
+<a href="reg.php">reg</a>
 <form method="post" action ="auth.php">
 	log<br/><input type="text" name="log" />
 	<br/>pass<br/><input type="password" name="pas" />
